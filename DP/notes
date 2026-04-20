@@ -1,0 +1,11 @@
+DP questions
+1. count the total no. of ways
+2. there is multiple ways of do anything so tell me the min output or the max output
+3. try all possible ways wheather it is to count the no. of ways or he best way out of them -- then recurssion 
+is applied and if it is a recurssion problem then try to apply the dp.
+
+Short cut for dp
+1. try to represent the problem in terms of index
+2. do all possible stuffs on that index acc. to the problem statement
+3. if the problem says count all the ways then sum of all the stuffs
+4. if the problem says find the min. then min(of all the stuffs) for max take max(of all the stuffs)
