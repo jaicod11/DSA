@@ -1,5 +1,0 @@
-git status  -- Check what changed
-git add .   -- Add all the changes
-git commit -m "Describe what you changed"  -- Commit the changes
-git push origin main  -- Push the changes to the remote repository
-git push --force origin main -- force pushing the changes
