@@ -31,6 +31,22 @@ void p2(int n){ //inverted pyramid structure
     }
 }
 
+void p3(int n){
+    p1(n);
+    for(int i = 0; i<n-1; i++){
+        for(int j = 0; j<i; j++){
+            cout<<" "<<" "<<" ";
+        }
+        for(int j = 0; j<2*(n-1) - 2*i-1; j++){
+            cout<<"*"<<" ";
+        }
+        for(int j = 0; j<i; j++){
+            cout<<" "<<" ";
+        }
+        cout<<endl;
+    }
+}
+
 int main(){
     cout<<"Enter no. of rows"<<endl;
     int n;
@@ -38,5 +54,7 @@ int main(){
     p1(n);
     cout<<endl;
     p2(n);
+    cout<<endl;
+    p3(n);
     return 0;
 }
